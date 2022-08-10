@@ -4,7 +4,6 @@ name: repository_dispatch working
 
 # Controls when the workflow will run
 on:
-
   repository_dispatch:
     event types: [ "event-triggered-by-jira" ]
 
